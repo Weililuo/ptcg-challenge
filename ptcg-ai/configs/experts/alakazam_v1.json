@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "deck": "decks/alakazam.csv",
+  "base": "base_v1",
+  "data": "alakazam",
+  "cards": {
+    "66": 2,
+    "743": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

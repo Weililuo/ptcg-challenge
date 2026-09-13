@@ -1,0 +1,7 @@
+{
+  "device": "cuda",
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

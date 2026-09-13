@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "deck": "decks/dragapult.csv",
+  "base": "base_v1",
+  "data": "dragapult",
+  "cards": {
+    "119": 2,
+    "121": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

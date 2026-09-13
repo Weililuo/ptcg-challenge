@@ -1,0 +1,104 @@
+{
+  "format": "learn",
+  "decks": [
+    {
+      "path": "record",
+      "weight": 1,
+      "opponents": [
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/alakazam.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/crustle.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/dragapult.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/froslass.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/hydrapple.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/mega_lopunny.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/raging_bolt.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/base/base_v3",
+          "deck": "decks/slowking.csv",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/experts/alakazam_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/crustle_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/dragapult_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/froslass_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/hydrapple_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/mega_lopunny_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/raging_bolt_v1",
+          "weight": 3
+        },
+        {
+          "type": "model",
+          "model": "models/experts/slowking_v1",
+          "weight": 3
+        },
+        {
+          "type": "self",
+          "deck": "same",
+          "weight": 24
+        }
+      ]
+    }
+  ]
+}

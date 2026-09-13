@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "deck": "decks/froslass.csv",
+  "base": "base_v1",
+  "data": "froslass",
+  "cards": {
+    "104": 2,
+    "860": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "device": "cuda",
+  "deck": "decks/hydrapple.csv",
+  "base": "base_v1",
+  "data": "hydrapple",
+  "cards": {
+    "96": 2,
+    "150": 2,
+    "710": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

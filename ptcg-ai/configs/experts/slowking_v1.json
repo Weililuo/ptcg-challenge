@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "deck": "decks/slowking.csv",
+  "base": "base_v1",
+  "data": "slowking",
+  "cards": {
+    "162": 2,
+    "163": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

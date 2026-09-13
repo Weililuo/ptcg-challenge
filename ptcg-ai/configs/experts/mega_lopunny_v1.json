@@ -1,0 +1,16 @@
+{
+  "device": "cuda",
+  "deck": "decks/mega_lopunny.csv",
+  "base": "base_v1",
+  "data": "mega_lopunny",
+  "cards": {
+    "66": 2,
+    "848": 2,
+    "849": 2,
+    "861": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

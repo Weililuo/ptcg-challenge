@@ -1,0 +1,71 @@
+{
+  "format": "learn",
+  "decks": [
+    {
+      "path": "decks/dragapult.csv",
+      "weight": 1,
+      "opponents": [
+        {
+          "type": "model",
+          "model": "models/base/base_v2",
+          "deck": "same",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/experts/dragapult_v1",
+          "weight": 3
+        },
+        {
+          "type": "self",
+          "deck": "same",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "path": "decks/hydrapple.csv",
+      "weight": 1,
+      "opponents": [
+        {
+          "type": "model",
+          "model": "models/base/base_v2",
+          "deck": "same",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/experts/hydrapple_v1",
+          "weight": 3
+        },
+        {
+          "type": "self",
+          "deck": "same",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "path": "decks/raging_bolt.csv",
+      "weight": 1,
+      "opponents": [
+        {
+          "type": "model",
+          "model": "models/base/base_v2",
+          "deck": "same",
+          "weight": 4
+        },
+        {
+          "type": "model",
+          "model": "models/experts/raging_bolt_v1",
+          "weight": 3
+        },
+        {
+          "type": "self",
+          "deck": "same",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "device": "cuda",
+  "deck": "decks/crustle.csv",
+  "base": "base_v1",
+  "data": "crustle",
+  "cards": {
+    "344": 2,
+    "345": 2,
+    "756": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2
+  }
+}

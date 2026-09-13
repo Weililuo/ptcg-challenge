@@ -1,0 +1,8 @@
+{
+  "rollout_workers": 6,
+  "games_per_iteration": 32,
+  "batch_size": 192,
+  "update_epochs": 4,
+  "learning_rate": 0.00002,
+  "iterations": 40
+}

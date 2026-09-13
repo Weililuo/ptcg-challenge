@@ -1,0 +1,15 @@
+{
+  "device": "cuda",
+  "deck": "decks/raging_bolt.csv",
+  "base": "base_v1",
+  "data": "raging_bolt",
+  "cards": {
+    "63": 2,
+    "96": 2
+  },
+  "training": {
+    "batch_size": 64,
+    "accumulate": 2,
+    "epochs": 3
+  }
+}
